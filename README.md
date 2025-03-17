@@ -164,7 +164,7 @@ It would take a while to go through the in depth explination on every symbol so 
 ## Logic Operations
 | Instruction | Symbol |
 |------------|--------|
-| or         | |      |
+| or         |   pipe |
 | xor        | ?|     |
 | and        | &      |
 | not        | '      |
