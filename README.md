@@ -208,6 +208,5 @@ It would take a while to go through the in depth explination on every symbol so 
 | (tab)      | :#:    |
 
 # Compiling
-Make sure you have nasm and gcc installed, to compile simply run: <br>
-`py main.py yourfile.mnl` <br>
-you can use the `-asm` flag to keep the asm file, the `-obj` flag to keep your obj file and the `-code` flag to display the generated asm code.
+Compile the `main.cpp` file and make sure you have nasm and gcc installed, after compiling run: <br>
+`main.exe yourfile.mnl` this will output `yourfile.exe`, you can use `-asm` and `-obj` to keep the temp files and `-code` to display the generated asm code.
