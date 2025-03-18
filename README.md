@@ -200,7 +200,7 @@ It would take a while to go through the in depth explination on every symbol so 
 | Instruction | Symbol |
 |------------|--------|
 | push       | >      |
-| pop        | ^      |
+| pop        | >^     |
 | mov        | ~      |
 | lea        | <      |
 | ,          | ,      |
