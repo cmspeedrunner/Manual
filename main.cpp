@@ -46,7 +46,7 @@ std::string translate_symbol(const std::string& symbol) {
         {".$.", ".data"}, {".%.", ".text"}, {".#.", ".bss"},
         
         // Data movement symbols
-        {">", "push"}, {"^", "pop"}, {"~", "mov"}, {"<", "lea"},
+        {">", "push"}, {">^", "pop"}, {"~", "mov"}, {"<", "lea"},
         {",", ","}, {"::", " "}, {":#:", "   "}
     };
     
